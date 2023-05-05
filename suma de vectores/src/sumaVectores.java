@@ -1,4 +1,4 @@
-public class sumaVectores
+public class SumaVectores
 {
     public double a;
     public double b;
