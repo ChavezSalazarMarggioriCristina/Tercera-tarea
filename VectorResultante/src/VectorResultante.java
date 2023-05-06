@@ -23,8 +23,8 @@ public class VectorResultante
     //para sumar las ordenadas de los vectores
     public VectorResultante suma(VectorResultante vector)
     {
-        double sumaA=this.a+vector.getB();
-        double sumaB=this.b+vector.getA();
+        double sumaA=this.getA+vector.getB();
+        double sumaB=this.getB+vector.getA();
         return new VectorResultante(sumaA,sumaB);
     }
 
